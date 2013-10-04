@@ -1,0 +1,52 @@
+/***** Performance Card *****/
+
+
+@font-face {
+    font-family: 'Gudea';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gudea'), url('http://themes.googleusercontent.com/static/fonts/gudea/v1/kfCeUiT0HGXHQC8YVeaKy6CWcynf_cDxXwCLxiixG1c.woff') format('woff');
+}
+
+
+
+.participantCardContainer {
+	background: blue;
+	display: inline-block;
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+	position:relative;
+	font-family:'Gudea';
+
+	  -webkit-transition: all 2s linear;  /* Chrome 1-25, Safari 3.2+ */
+     -moz-transition: all 2s linear;  /* Firefox 4-15 */
+       -o-transition: all 2s linear;  /* Opera 10.50–12.00 */
+          transition: all 2s linear;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+
+  cursor: pointer;
+
+}
+
+.participantCardContainer .fullName {
+	width: 100%;
+	padding: 20px;
+	font-size: 20px;
+	position: absolute;
+	vertical-align: bottom;
+	color: #FFFFFF;
+	line-height: 1;
+	bottom:0px;
+	left:0px;
+}
+
+.participantCardContainer.immortal {
+	height: 500px;
+	width: 500px;
+	font-size:120px;
+}
+
+.participantCardContainer.immortal .fullName {
+	font-size:120px;
+}
